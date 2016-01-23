@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B050B6D51C535009000E9680 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B050B6D31C535009000E9680 /* CameraViewController.m */; };
+		B050B6D91C535DAA000E9680 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B050B6D81C535DAA000E9680 /* Constants.m */; };
 		B088FC6C1C530B790072E17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC6B1C530B790072E17A /* main.m */; };
 		B088FC6F1C530B790072E17A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC6E1C530B790072E17A /* AppDelegate.m */; };
 		B088FC721C530B790072E17A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC711C530B790072E17A /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		B088FC7D1C530B790072E17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088FC7B1C530B790072E17A /* LaunchScreen.storyboard */; };
 		B088FC881C530B790072E17A /* phonoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC871C530B790072E17A /* phonoTests.m */; };
 		B088FC931C530B790072E17A /* phonoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC921C530B790072E17A /* phonoUITests.m */; };
+		EBE85A67A4163C685BD3A907 /* libPods-phono.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9330F652C9ED39BE6A6BAE /* libPods-phono.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70A7BFE37F60A23B34FCA9E0 /* Pods-phono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phono.release.xcconfig"; path = "Pods/Target Support Files/Pods-phono/Pods-phono.release.xcconfig"; sourceTree = "<group>"; };
+		9A9330F652C9ED39BE6A6BAE /* libPods-phono.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-phono.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01650D1AE0FF9E668A465F1 /* Pods-phono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phono.debug.xcconfig"; path = "Pods/Target Support Files/Pods-phono/Pods-phono.debug.xcconfig"; sourceTree = "<group>"; };
+		B050B6D21C535009000E9680 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		B050B6D31C535009000E9680 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		B050B6D71C535DAA000E9680 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B050B6D81C535DAA000E9680 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		B088FC671C530B790072E17A /* phono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phono.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B088FC6B1C530B790072E17A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B088FC6D1C530B790072E17A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE85A67A4163C685BD3A907 /* libPods-phono.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32E5BCF9A76BCFAA81FBFE59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A9330F652C9ED39BE6A6BAE /* libPods-phono.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B088FC5E1C530B790072E17A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +106,8 @@
 				B088FC861C530B790072E17A /* phonoTests */,
 				B088FC911C530B790072E17A /* phonoUITests */,
 				B088FC681C530B790072E17A /* Products */,
+				B7C719E11BEE38047DD3698C /* Pods */,
+				32E5BCF9A76BCFAA81FBFE59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +128,10 @@
 				B088FC6E1C530B790072E17A /* AppDelegate.m */,
 				B088FC701C530B790072E17A /* ViewController.h */,
 				B088FC711C530B790072E17A /* ViewController.m */,
+				B050B6D21C535009000E9680 /* CameraViewController.h */,
+				B050B6D31C535009000E9680 /* CameraViewController.m */,
+				B050B6D71C535DAA000E9680 /* Constants.h */,
+				B050B6D81C535DAA000E9680 /* Constants.m */,
 				B088FC731C530B790072E17A /* Main.storyboard */,
 				B088FC791C530B790072E17A /* Assets.xcassets */,
 				B088FC7B1C530B790072E17A /* LaunchScreen.storyboard */,
@@ -143,6 +168,15 @@
 			path = phonoUITests;
 			sourceTree = "<group>";
 		};
+		B7C719E11BEE38047DD3698C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A01650D1AE0FF9E668A465F1 /* Pods-phono.debug.xcconfig */,
+				70A7BFE37F60A23B34FCA9E0 /* Pods-phono.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B088FC971C530B790072E17A /* Build configuration list for PBXNativeTarget "phono" */;
 			buildPhases = (
+				6815D15F7C57406A63118C15 /* Check Pods Manifest.lock */,
 				B088FC631C530B790072E17A /* Sources */,
 				B088FC641C530B790072E17A /* Frameworks */,
 				B088FC651C530B790072E17A /* Resources */,
+				E4B7B88D8ACDB681336A3563 /* Embed Pods Frameworks */,
+				72A345590D894F704FB5F222 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,15 +305,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6815D15F7C57406A63118C15 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72A345590D894F704FB5F222 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-phono/Pods-phono-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B7B88D8ACDB681336A3563 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-phono/Pods-phono-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B088FC631C530B790072E17A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B050B6D51C535009000E9680 /* CameraViewController.m in Sources */,
 				B088FC721C530B790072E17A /* ViewController.m in Sources */,
 				B088FC6F1C530B790072E17A /* AppDelegate.m in Sources */,
 				B088FC781C530B790072E17A /* phono.xcdatamodeld in Sources */,
 				B088FC6C1C530B790072E17A /* main.m in Sources */,
+				B050B6D91C535DAA000E9680 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +500,7 @@
 		};
 		B088FC981C530B790072E17A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01650D1AE0FF9E668A465F1 /* Pods-phono.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = phono/Info.plist;
@@ -424,6 +512,7 @@
 		};
 		B088FC991C530B790072E17A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A7BFE37F60A23B34FCA9E0 /* Pods-phono.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = phono/Info.plist;
@@ -500,6 +589,7 @@
 				B088FC991C530B790072E17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B088FC9A1C530B790072E17A /* Build configuration list for PBXNativeTarget "phonoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +598,7 @@
 				B088FC9C1C530B790072E17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B088FC9D1C530B790072E17A /* Build configuration list for PBXNativeTarget "phonoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +607,7 @@
 				B088FC9F1C530B790072E17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

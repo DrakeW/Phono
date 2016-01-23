@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <evernote-cloud-sdk-ios/ENSDK.h>
+#import "Constants.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    // Initial development is done on the sandbox service
+    // When you want to connect to production, just pass "nil" for "optionalHost"
+    NSString *SANDBOX_HOST = ENSessionHostSandbox;
+    
+    // Fill in the consumer key and secret with the values that you received from Evernote
+    // To get an API key, visit http://dev.evernote.com/documentation/cloud/
+    NSString *CONSUMER_KEY = evernoteConsumerKey;
+    NSString *CONSUMER_SECRET = evernoteConsumerSecret;
+    
+    [ENSession setSharedSessionConsumerKey:CONSUMER_KEY
+                            consumerSecret:CONSUMER_SECRET
+                              optionalHost:SANDBOX_HOST];
+    
     return YES;
 }
 
@@ -42,6 +58,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    BOOL didHandle = [[ENSession sharedSession] handleOpenURL:url];
+    // ...
+    return didHandle;
 }
 
 #pragma mark - Core Data stack
