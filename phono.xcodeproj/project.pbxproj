@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B088FC6C1C530B790072E17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC6B1C530B790072E17A /* main.m */; };
+		B088FC6F1C530B790072E17A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC6E1C530B790072E17A /* AppDelegate.m */; };
+		B088FC721C530B790072E17A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC711C530B790072E17A /* ViewController.m */; };
+		B088FC751C530B790072E17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088FC731C530B790072E17A /* Main.storyboard */; };
+		B088FC781C530B790072E17A /* phono.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B088FC761C530B790072E17A /* phono.xcdatamodeld */; };
+		B088FC7A1C530B790072E17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B088FC791C530B790072E17A /* Assets.xcassets */; };
+		B088FC7D1C530B790072E17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088FC7B1C530B790072E17A /* LaunchScreen.storyboard */; };
+		B088FC881C530B790072E17A /* phonoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC871C530B790072E17A /* phonoTests.m */; };
+		B088FC931C530B790072E17A /* phonoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC921C530B790072E17A /* phonoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B088FC841C530B790072E17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B088FC5F1C530B790072E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B088FC661C530B790072E17A;
+			remoteInfo = phono;
+		};
+		B088FC8F1C530B790072E17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B088FC5F1C530B790072E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B088FC661C530B790072E17A;
+			remoteInfo = phono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B088FC671C530B790072E17A /* phono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B088FC6B1C530B790072E17A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B088FC6D1C530B790072E17A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B088FC6E1C530B790072E17A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B088FC701C530B790072E17A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B088FC711C530B790072E17A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B088FC741C530B790072E17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B088FC771C530B790072E17A /* phono.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = phono.xcdatamodel; sourceTree = "<group>"; };
+		B088FC791C530B790072E17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B088FC7C1C530B790072E17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B088FC7E1C530B790072E17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B088FC831C530B790072E17A /* phonoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B088FC871C530B790072E17A /* phonoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phonoTests.m; sourceTree = "<group>"; };
+		B088FC891C530B790072E17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B088FC8E1C530B790072E17A /* phonoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B088FC921C530B790072E17A /* phonoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phonoUITests.m; sourceTree = "<group>"; };
+		B088FC941C530B790072E17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B088FC641C530B790072E17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B088FC801C530B790072E17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B088FC8B1C530B790072E17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B088FC5E1C530B790072E17A = {
+			isa = PBXGroup;
+			children = (
+				B088FC691C530B790072E17A /* phono */,
+				B088FC861C530B790072E17A /* phonoTests */,
+				B088FC911C530B790072E17A /* phonoUITests */,
+				B088FC681C530B790072E17A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B088FC681C530B790072E17A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B088FC671C530B790072E17A /* phono.app */,
+				B088FC831C530B790072E17A /* phonoTests.xctest */,
+				B088FC8E1C530B790072E17A /* phonoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B088FC691C530B790072E17A /* phono */ = {
+			isa = PBXGroup;
+			children = (
+				B088FC6D1C530B790072E17A /* AppDelegate.h */,
+				B088FC6E1C530B790072E17A /* AppDelegate.m */,
+				B088FC701C530B790072E17A /* ViewController.h */,
+				B088FC711C530B790072E17A /* ViewController.m */,
+				B088FC731C530B790072E17A /* Main.storyboard */,
+				B088FC791C530B790072E17A /* Assets.xcassets */,
+				B088FC7B1C530B790072E17A /* LaunchScreen.storyboard */,
+				B088FC7E1C530B790072E17A /* Info.plist */,
+				B088FC761C530B790072E17A /* phono.xcdatamodeld */,
+				B088FC6A1C530B790072E17A /* Supporting Files */,
+			);
+			path = phono;
+			sourceTree = "<group>";
+		};
+		B088FC6A1C530B790072E17A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B088FC6B1C530B790072E17A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B088FC861C530B790072E17A /* phonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B088FC871C530B790072E17A /* phonoTests.m */,
+				B088FC891C530B790072E17A /* Info.plist */,
+			);
+			path = phonoTests;
+			sourceTree = "<group>";
+		};
+		B088FC911C530B790072E17A /* phonoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B088FC921C530B790072E17A /* phonoUITests.m */,
+				B088FC941C530B790072E17A /* Info.plist */,
+			);
+			path = phonoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B088FC661C530B790072E17A /* phono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B088FC971C530B790072E17A /* Build configuration list for PBXNativeTarget "phono" */;
+			buildPhases = (
+				B088FC631C530B790072E17A /* Sources */,
+				B088FC641C530B790072E17A /* Frameworks */,
+				B088FC651C530B790072E17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phono;
+			productName = phono;
+			productReference = B088FC671C530B790072E17A /* phono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B088FC821C530B790072E17A /* phonoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B088FC9A1C530B790072E17A /* Build configuration list for PBXNativeTarget "phonoTests" */;
+			buildPhases = (
+				B088FC7F1C530B790072E17A /* Sources */,
+				B088FC801C530B790072E17A /* Frameworks */,
+				B088FC811C530B790072E17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B088FC851C530B790072E17A /* PBXTargetDependency */,
+			);
+			name = phonoTests;
+			productName = phonoTests;
+			productReference = B088FC831C530B790072E17A /* phonoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B088FC8D1C530B790072E17A /* phonoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B088FC9D1C530B790072E17A /* Build configuration list for PBXNativeTarget "phonoUITests" */;
+			buildPhases = (
+				B088FC8A1C530B790072E17A /* Sources */,
+				B088FC8B1C530B790072E17A /* Frameworks */,
+				B088FC8C1C530B790072E17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B088FC901C530B790072E17A /* PBXTargetDependency */,
+			);
+			name = phonoUITests;
+			productName = phonoUITests;
+			productReference = B088FC8E1C530B790072E17A /* phonoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B088FC5F1C530B790072E17A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = junyuwang;
+				TargetAttributes = {
+					B088FC661C530B790072E17A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B088FC821C530B790072E17A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B088FC661C530B790072E17A;
+					};
+					B088FC8D1C530B790072E17A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B088FC661C530B790072E17A;
+					};
+				};
+			};
+			buildConfigurationList = B088FC621C530B790072E17A /* Build configuration list for PBXProject "phono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B088FC5E1C530B790072E17A;
+			productRefGroup = B088FC681C530B790072E17A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B088FC661C530B790072E17A /* phono */,
+				B088FC821C530B790072E17A /* phonoTests */,
+				B088FC8D1C530B790072E17A /* phonoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B088FC651C530B790072E17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B088FC7D1C530B790072E17A /* LaunchScreen.storyboard in Resources */,
+				B088FC7A1C530B790072E17A /* Assets.xcassets in Resources */,
+				B088FC751C530B790072E17A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B088FC811C530B790072E17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B088FC8C1C530B790072E17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B088FC631C530B790072E17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B088FC721C530B790072E17A /* ViewController.m in Sources */,
+				B088FC6F1C530B790072E17A /* AppDelegate.m in Sources */,
+				B088FC781C530B790072E17A /* phono.xcdatamodeld in Sources */,
+				B088FC6C1C530B790072E17A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B088FC7F1C530B790072E17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B088FC881C530B790072E17A /* phonoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B088FC8A1C530B790072E17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B088FC931C530B790072E17A /* phonoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B088FC851C530B790072E17A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B088FC661C530B790072E17A /* phono */;
+			targetProxy = B088FC841C530B790072E17A /* PBXContainerItemProxy */;
+		};
+		B088FC901C530B790072E17A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B088FC661C530B790072E17A /* phono */;
+			targetProxy = B088FC8F1C530B790072E17A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B088FC731C530B790072E17A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B088FC741C530B790072E17A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B088FC7B1C530B790072E17A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B088FC7C1C530B790072E17A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B088FC951C530B790072E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B088FC961C530B790072E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B088FC981C530B790072E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = phono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B088FC991C530B790072E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = phono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B088FC9B1C530B790072E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phonoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phono.app/phono";
+			};
+			name = Debug;
+		};
+		B088FC9C1C530B790072E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phonoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phono.app/phono";
+			};
+			name = Release;
+		};
+		B088FC9E1C530B790072E17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = phonoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phonoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = phono;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B088FC9F1C530B790072E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = phonoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phonoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = phono;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B088FC621C530B790072E17A /* Build configuration list for PBXProject "phono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B088FC951C530B790072E17A /* Debug */,
+				B088FC961C530B790072E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B088FC971C530B790072E17A /* Build configuration list for PBXNativeTarget "phono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B088FC981C530B790072E17A /* Debug */,
+				B088FC991C530B790072E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B088FC9A1C530B790072E17A /* Build configuration list for PBXNativeTarget "phonoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B088FC9B1C530B790072E17A /* Debug */,
+				B088FC9C1C530B790072E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B088FC9D1C530B790072E17A /* Build configuration list for PBXNativeTarget "phonoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B088FC9E1C530B790072E17A /* Debug */,
+				B088FC9F1C530B790072E17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B088FC761C530B790072E17A /* phono.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B088FC771C530B790072E17A /* phono.xcdatamodel */,
+			);
+			currentVersion = B088FC771C530B790072E17A /* phono.xcdatamodel */;
+			path = phono.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B088FC5F1C530B790072E17A /* Project object */;
+}
