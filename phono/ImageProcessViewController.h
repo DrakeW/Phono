@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ImageProcessViewController : ViewController
+@interface ImageProcessViewController : UIViewController
 
 @property (weak, nonatomic) UIImage *photoToProcess;
 

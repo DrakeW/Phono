@@ -11,7 +11,7 @@
 
 @interface ViewController : UIViewController <TGCameraDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
-@property (nonatomic, weak) UIImage *photo;
+@property (nonatomic, copy) UIImage *photo;
 
 @end
 

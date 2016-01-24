@@ -10,4 +10,7 @@
 
 @interface Constants : NSObject
 
+extern NSString* const evernoteConsumerKey;
+extern NSString* const evernoteConsumerSecret;
+
 @end

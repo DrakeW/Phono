@@ -15,9 +15,12 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
+
+@synthesize photo;
 
 #pragma mark - view controller lifecycle
 
@@ -46,7 +49,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     ImageProcessViewController *ipv = (ImageProcessViewController*) segue.destinationViewController;
-    ipv.photoToProcess = _photo;
+    ipv.photoToProcess = photo;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -94,8 +97,6 @@
                                                            style:UIAlertActionStyleDefault
                                                          handler:^(UIAlertAction * _Nonnull action) {
                                                              //cancel selection
-                                                             [self dismissViewControllerAnimated:YES
-                                                                                      completion:nil];
                                                          }];
     [choiceAlert addAction:chooseFromCameraRollAction];
     [choiceAlert addAction:takePhotoAction];
@@ -125,13 +126,16 @@
 
 - (void)cameraDidTakePhoto:(UIImage *)image
 {
-    _photo = image;
-    [self dismissViewControllerAnimated:YES completion:nil];
+    photo = image;
+    [self dismissViewControllerAnimated:YES completion:^{
+        [self performSegueWithIdentifier:@"pop_from_view_to_image_process_view"
+                                  sender:self];
+    }];
 }
 
 - (void)cameraDidSelectAlbumPhoto:(UIImage *)image
 {
-    _photo = image;
+    photo = image;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
@@ -147,15 +151,11 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
-    _photo = [TGAlbum imageWithMediaInfo:info];
-    [self dismissViewControllerAnimated:YES completion:nil];
-    
-    ImageProcessViewController *ipv = [[ImageProcessViewController alloc] init];
-    ipv.photoToProcess = _photo;
-    
-    [self presentViewController:ipv
-                       animated:YES
-                     completion:nil];
+    photo = [TGAlbum imageWithMediaInfo:info];
+    [self dismissViewControllerAnimated:NO
+                             completion:^{
+                                 [self performSegueWithIdentifier:@"pop_from_view_to_image_process_view" sender:self];
+                             }];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker

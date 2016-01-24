@@ -26,29 +26,30 @@
                         <viewControllerLayoutGuide type="bottom" id="BSd-fZ-5dx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7qe-cr-DSW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sye-tD-QTa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0TH-h4-Ty8">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="120" width="240" height="186"/>
+                                    <rect key="frame" x="80" y="176" width="240" height="128"/>
                                 </variation>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.46274509800000002" green="0.22352941179999999" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="sye-tD-QTa"/>
+                                <exclude reference="0TH-h4-Ty8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="sye-tD-QTa"/>
+                                <include reference="0TH-h4-Ty8"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="photoToProcess" destination="sye-tD-QTa" id="kjd-zC-24i"/>
+                        <outlet property="photoContainer" destination="0TH-h4-Ty8" id="xps-SK-VxW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fRD-KB-3N9" userLabel="First Responder" sceneMemberID="firstResponder"/>

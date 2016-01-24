@@ -9,15 +9,19 @@
 #import "ImageProcessViewController.h"
 
 @interface ImageProcessViewController ()
+@property (strong, nonatomic) IBOutlet UIImageView *photoContainer;
 
 @end
 
 @implementation ImageProcessViewController
 
+@synthesize photoToProcess;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    NSLog(@"sup");
+    
+    self.photoContainer.image = self.photoToProcess;
+    
 }
 
 - (void)didReceiveMemoryWarning {
