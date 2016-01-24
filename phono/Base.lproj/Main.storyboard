@@ -9,38 +9,51 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
                     <connections>
-                        <segue destination="86D-N8-r60" kind="presentation" identifier="view_to_camera_view_segue" id="8cB-TQ-IN7"/>
+                        <segue destination="Svi-mQ-4A8" kind="presentation" identifier="pop_from_view_to_image_process_view" id="GsH-Jl-wy1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="564" y="537"/>
         </scene>
-        <!--Camera View Controller-->
-        <scene sceneID="IxA-OR-J5H">
+        <!--Image Process View Controller-->
+        <scene sceneID="6dg-Lu-MhI">
             <objects>
-                <viewController id="86D-N8-r60" customClass="CameraViewController" sceneMemberID="viewController">
+                <viewController id="Svi-mQ-4A8" customClass="ImageProcessViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GAG-Z8-Md8"/>
-                        <viewControllerLayoutGuide type="bottom" id="lMK-YA-Rv4"/>
+                        <viewControllerLayoutGuide type="top" id="9bK-tA-QZM"/>
+                        <viewControllerLayoutGuide type="bottom" id="BSd-fZ-5dx"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="DmE-R7-qZV">
+                    <view key="view" contentMode="scaleToFill" id="7qe-cr-DSW">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sye-tD-QTa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="120" width="240" height="186"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.46274509800000002" green="0.22352941179999999" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="sye-tD-QTa"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="sye-tD-QTa"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="photoToProcess" destination="sye-tD-QTa" id="kjd-zC-24i"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q7O-Wn-oT4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fRD-KB-3N9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1537.5" y="414"/>
+            <point key="canvasLocation" x="1500" y="536"/>
         </scene>
     </scenes>
 </document>

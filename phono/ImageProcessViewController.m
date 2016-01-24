@@ -1,22 +1,23 @@
 //
-//  CameraViewController.m
+//  ImageProcessViewController.m
 //  phono
 //
-//  Created by Junyu Wang on 1/22/16.
+//  Created by Junyu Wang on 1/23/16.
 //  Copyright © 2016 junyuwang. All rights reserved.
 //
 
-#import "CameraViewController.h"
+#import "ImageProcessViewController.h"
 
-@interface CameraViewController ()
+@interface ImageProcessViewController ()
 
 @end
 
-@implementation CameraViewController
+@implementation ImageProcessViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
+    NSLog(@"sup");
 }
 
 - (void)didReceiveMemoryWarning {

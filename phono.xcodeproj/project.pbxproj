@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B050B6D51C535009000E9680 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B050B6D31C535009000E9680 /* CameraViewController.m */; };
 		B050B6D91C535DAA000E9680 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B050B6D81C535DAA000E9680 /* Constants.m */; };
 		B088FC6C1C530B790072E17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC6B1C530B790072E17A /* main.m */; };
 		B088FC6F1C530B790072E17A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC6E1C530B790072E17A /* AppDelegate.m */; };
@@ -18,6 +17,7 @@
 		B088FC7D1C530B790072E17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088FC7B1C530B790072E17A /* LaunchScreen.storyboard */; };
 		B088FC881C530B790072E17A /* phonoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC871C530B790072E17A /* phonoTests.m */; };
 		B088FC931C530B790072E17A /* phonoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B088FC921C530B790072E17A /* phonoUITests.m */; };
+		B0B2DDDB1C54637700DF976B /* ImageProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B2DDDA1C54637700DF976B /* ImageProcessViewController.m */; };
 		EBE85A67A4163C685BD3A907 /* libPods-phono.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9330F652C9ED39BE6A6BAE /* libPods-phono.a */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +42,6 @@
 		70A7BFE37F60A23B34FCA9E0 /* Pods-phono.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phono.release.xcconfig"; path = "Pods/Target Support Files/Pods-phono/Pods-phono.release.xcconfig"; sourceTree = "<group>"; };
 		9A9330F652C9ED39BE6A6BAE /* libPods-phono.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-phono.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01650D1AE0FF9E668A465F1 /* Pods-phono.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phono.debug.xcconfig"; path = "Pods/Target Support Files/Pods-phono/Pods-phono.debug.xcconfig"; sourceTree = "<group>"; };
-		B050B6D21C535009000E9680 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		B050B6D31C535009000E9680 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		B050B6D71C535DAA000E9680 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		B050B6D81C535DAA000E9680 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		B088FC671C530B790072E17A /* phono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phono.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +61,8 @@
 		B088FC8E1C530B790072E17A /* phonoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B088FC921C530B790072E17A /* phonoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phonoUITests.m; sourceTree = "<group>"; };
 		B088FC941C530B790072E17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B2DDD91C54637700DF976B /* ImageProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessViewController.h; sourceTree = "<group>"; };
+		B0B2DDDA1C54637700DF976B /* ImageProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 				B088FC6E1C530B790072E17A /* AppDelegate.m */,
 				B088FC701C530B790072E17A /* ViewController.h */,
 				B088FC711C530B790072E17A /* ViewController.m */,
-				B050B6D21C535009000E9680 /* CameraViewController.h */,
-				B050B6D31C535009000E9680 /* CameraViewController.m */,
+				B0B2DDD91C54637700DF976B /* ImageProcessViewController.h */,
+				B0B2DDDA1C54637700DF976B /* ImageProcessViewController.m */,
 				B050B6D71C535DAA000E9680 /* Constants.h */,
 				B050B6D81C535DAA000E9680 /* Constants.m */,
 				B088FC731C530B790072E17A /* Main.storyboard */,
@@ -358,11 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B050B6D51C535009000E9680 /* CameraViewController.m in Sources */,
 				B088FC721C530B790072E17A /* ViewController.m in Sources */,
 				B088FC6F1C530B790072E17A /* AppDelegate.m in Sources */,
 				B088FC781C530B790072E17A /* phono.xcdatamodeld in Sources */,
 				B088FC6C1C530B790072E17A /* main.m in Sources */,
+				B0B2DDDB1C54637700DF976B /* ImageProcessViewController.m in Sources */,
 				B050B6D91C535DAA000E9680 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +503,8 @@
 			baseConfigurationReference = A01650D1AE0FF9E668A465F1 /* Pods-phono.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = phono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phono;
@@ -515,6 +517,8 @@
 			baseConfigurationReference = 70A7BFE37F60A23B34FCA9E0 /* Pods-phono.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = phono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.junyuwang.phono;

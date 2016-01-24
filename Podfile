@@ -7,7 +7,6 @@ target 'phono' do
   pod 'evernote-cloud-sdk-ios', '~> 2.0'
   pod 'TGCameraViewController', '~> 2.2'
   pod 'TesseractOCRiOS', '~> 4.0'
-  pod 'HTPressableButton'
   pod 'HTPressableButton/HTColor'
   pod 'ChameleonFramework'
 end

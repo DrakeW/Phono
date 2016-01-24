@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TGCameraViewController/TGCameraViewController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TGCameraDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
+@property (nonatomic, weak) UIImage *photo;
 
 @end
 
